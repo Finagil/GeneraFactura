@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="MailError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ecacerest@lamoderna.com.mx</Value>
+    </Setting>
+    <Setting Name="RutaBackup" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\server-nas\FacturasCFDI\CFDIbackup\</Value>
+    </Setting>
+    <Setting Name="ServerCFDIArf" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.10.37\arfin_sar951230n5a2\</Value>
+    </Setting>
+    <Setting Name="NoPasa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\server-nas\FacturasCFDI\</Value>
+    </Setting>
+    <Setting Name="ServerCFDIFin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.10.37\finagil_fin940905ax7\</Value>
+    </Setting>
+    <Setting Name="RutaCFDI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">r:\CFDI\</Value>
+    </Setting>
+    <Setting Name="RutaOrigen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">r:\ORGtxt\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
