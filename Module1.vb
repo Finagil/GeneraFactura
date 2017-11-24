@@ -103,13 +103,15 @@ Module GneraFactura
             'Try
 
             Console.WriteLine("Generando CFDI..." & F(i).Name)
-                For x = 0 To 20
-                    Arre(0, x) = ""
-                    Arre(1, x) = ""
-                    Arre(2, x) = ""
-                Next
-                x = 0
-                suma = 0
+
+            For x = 0 To 20
+                Arre(0, x) = ""
+                Arre(1, x) = ""
+                Arre(2, x) = ""
+            Next
+            x = 0
+            suma = 0
+            Mail = ""
             LecturaPrevia(F(i).FullName, F(i).Name, Moneda)
             f2 = New System.IO.StreamReader(F(i).FullName, Text.Encoding.GetEncoding(1252))
                 If Mid(F(i).Name, 1, 3) <> "FIN" And Mid(F(i).Name, 1, 3) <> "XXA" And IsNumeric(Mid(F(i).Name, 1, 4)) = True Then
